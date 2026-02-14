@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Valentine's Gallery</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #ffe6e6;
+            color: #d63384;
+            text-align: center;
+            padding: 20px;
+        }
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 20px;
+        }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        .gallery img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            transition: transform 0.3s;
+        }
+        .gallery img:hover {
+            transform: scale(1.05);
+        }
+        .back-link {
+            margin-top: 30px;
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #d63384;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        .back-link:hover {
+            background-color: #b0246a;
+        }
+        .heart {
+            color: #ff1493;
+            font-size: 1.5em;
+        }
+    </style>
+</head>
+<body>
+    <h1>Happy Valentine's Day! <span class="heart">❤️</span></h1>
+    <p>Here's a gallery of romantic moments. Enjoy!</p>
+    
+    <div class="gallery">
+        <!-- Replace these with your own image URLs or paths -->
+        <img src="https://via.placeholder.com/300x200/ff69b4/ffffff?text=Romantic+Dinner" alt="Romantic Dinner">
+        <img src="https://via.placeholder.com/300x200/ff1493/ffffff?text=Sunset+Walk" alt="Sunset Walk">
+        <img src="https://via.placeholder.com/300x200/dc143c/ffffff?text=Heart+Note" alt="Heart Note">
+        <img src="https://via.placeholder.com/300x200/c71585/ffffff?text=Candlelight" alt="Candlelight">
+        <img src="https://via.placeholder.com/300x200/db7093/ffffff?text=Flowers" alt="Flowers">
+        <img src="https://via.placeholder.com/300x200/ff6347/ffffff?text=Love+Letter" alt="Love Letter">
+    </div>
+    
+    <!-- Link back to your other HTML file (e.g., index.html) -->
+    <a href="index.html" class="back-link">Back to Main Page</a>
+</body>
+</html>
