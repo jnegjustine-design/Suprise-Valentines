@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Valentine's Day!</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Happy Valentine's Day, My Baby!</h1>
+        <div class="heart">❤️</div>
+        <p>Click the button below for a special surprise...</p>
+        <button id="surprise-btn">Reveal Surprise</button>
+        <div id="surprise" class="hidden">
+            <p>,<br>
+            My heart beats for you, forever true.<br>
+            You're my everything, my dream come true,<br>
+            Happy Valentine's Day, I love you!</p>
+            <!-- Replace with your own image or message -->
+            <img src="your-photo.jpg" alt="Us together" style="max-width: 100%; height: auto;">
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
